@@ -1,0 +1,16 @@
+{
+    "name": "asaas-rent/spy-agent",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "google/cloud-firestore": "9999999-dev",
+        "kreait/firebase-php": "9999999-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpyAgent\\": "src/"
+        }
+    }
+
+}
