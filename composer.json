@@ -4,7 +4,7 @@
     "license": "MIT",
     "minimum-stability": "stable",
     "require": {
-
+        "kreait/firebase-php": "5.x-dev"
     },
     "autoload": {
         "psr-4": {
