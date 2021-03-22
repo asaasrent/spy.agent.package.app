@@ -1011,12 +1011,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kreait/firebase-php.git",
-                "reference": "57884d402e2700b6ff0c228ec79cfab8f985f016"
+                "reference": "c2fae94a81746d520e60ac7d5966141b889968c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kreait/firebase-php/zipball/57884d402e2700b6ff0c228ec79cfab8f985f016",
-                "reference": "57884d402e2700b6ff0c228ec79cfab8f985f016",
+                "url": "https://api.github.com/repos/kreait/firebase-php/zipball/c2fae94a81746d520e60ac7d5966141b889968c4",
+                "reference": "c2fae94a81746d520e60ac7d5966141b889968c4",
                 "shasum": ""
             },
             "require": {
@@ -1053,7 +1053,7 @@
                 "giggsey/libphonenumber-for-php": "^8.9 to validate phone numbers before attempting to send them to Firebase",
                 "google/cloud-firestore": "^1.0 to use the Firestore component"
             },
-            "time": "2021-03-15T19:35:17+00:00",
+            "time": "2021-03-21T20:06:59+00:00",
             "default-branch": true,
             "type": "library",
             "extra": {
