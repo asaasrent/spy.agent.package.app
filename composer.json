@@ -4,7 +4,8 @@
     "license": "MIT",
     "minimum-stability": "stable",
     "require": {
-        "kreait/firebase-php": "^4.44.0"
+        "kreait/firebase-php": "^4.44.0",
+        "google/cloud-firestore": "dev-master"
     },
     "autoload": {
         "psr-4": {
