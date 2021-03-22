@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b3dfe336269e9c248fac091a2d90497",
+    "content-hash": "ddfcec24189798dd549daca2953a4c3d",
     "packages": [
         {
             "name": "brick/math",
@@ -965,12 +965,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kreait/firebase-php.git",
-                "reference": "57884d402e2700b6ff0c228ec79cfab8f985f016"
+                "reference": "c2fae94a81746d520e60ac7d5966141b889968c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kreait/firebase-php/zipball/57884d402e2700b6ff0c228ec79cfab8f985f016",
-                "reference": "57884d402e2700b6ff0c228ec79cfab8f985f016",
+                "url": "https://api.github.com/repos/kreait/firebase-php/zipball/c2fae94a81746d520e60ac7d5966141b889968c4",
+                "reference": "c2fae94a81746d520e60ac7d5966141b889968c4",
                 "shasum": ""
             },
             "require": {
@@ -1050,7 +1050,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-15T19:35:17+00:00"
+            "time": "2021-03-21T20:06:59+00:00"
         },
         {
             "name": "kreait/firebase-tokens",
@@ -2214,7 +2214,7 @@
         "google/cloud-firestore": 20,
         "kreait/firebase-php": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],

@@ -14,24 +14,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '47d3af952ae5cf1f9a929b9ab82b5608960d86d3',
     'name' => 'asaas-rent/spy-agent',
   ),
   'versions' => 
   array (
     'asaas-rent/spy-agent' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '47d3af952ae5cf1f9a929b9ab82b5608960d86d3',
     ),
     'brick/math' => 
     array (
@@ -198,7 +198,7 @@ private static $installed = array (
       array (
         0 => '9999999-dev',
       ),
-      'reference' => '57884d402e2700b6ff0c228ec79cfab8f985f016',
+      'reference' => 'c2fae94a81746d520e60ac7d5966141b889968c4',
     ),
     'kreait/firebase-tokens' => 
     array (
