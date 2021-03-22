@@ -2,7 +2,8 @@
     "name": "asaas-rent/spy-agent",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "google/cloud-firestore": "9999999-dev",
         "kreait/firebase-php": "9999999-dev"
