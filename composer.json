@@ -2,8 +2,7 @@
     "name": "asaas-rent/spy-agent",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "minimum-stability": "stable",
     "require": {
 
     },
