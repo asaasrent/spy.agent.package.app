@@ -5,8 +5,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "google/cloud-firestore": "dev-master",
-        "kreait/firebase-php": "5.x-dev"
+
     },
     "autoload": {
         "psr-4": {
