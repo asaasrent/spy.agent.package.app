@@ -5,8 +5,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "google/cloud-firestore": "9999999-dev",
-        "kreait/firebase-php": "9999999-dev"
+        "google/cloud-firestore": "dev-master",
+        "kreait/firebase-php": "dev-master"
     },
     "autoload": {
         "psr-4": {
