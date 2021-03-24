@@ -5,8 +5,7 @@
     "minimum-stability": "stable",
     "require": {
         "kreait/firebase-php": "5.17.0",
-        "google/cloud-firestore": "v1.19.2",
-        "grpc/grpc": "1.36.0"
+        "google/cloud-firestore": "v1.19.2"
     },
     "autoload": {
         "psr-4": {
