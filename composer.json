@@ -5,12 +5,9 @@
     "minimum-stability": "stable",
     "require": {
         "kreait/firebase-php": "5.17.0",
-        "google/cloud-firestore": "v1.19.2"
+        "google/cloud-firestore": "v1.19.2",
+        "grpc/grpc": "^1.13"
     },
-    "replace": {
-    "grpc/grpc": "^1.13"
-    },
-
     "autoload": {
         "psr-4": {
             "SpyAgent\\": "src/"
