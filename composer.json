@@ -6,7 +6,7 @@
     "require": {
         "kreait/firebase-php": "5.17.0",
         "google/cloud-firestore": "v1.19.2",
-        "grpc/grpc": "1.13.0"
+        "grpc/grpc": "^1.13"
     },
     "autoload": {
         "psr-4": {
