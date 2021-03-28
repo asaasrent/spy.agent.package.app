@@ -29,5 +29,6 @@ class ProcessManager
                 '/processes/' . SpyAgent::$currentProcessDocumentId );
 
         $processDocument->set(["status"=>"success"]);
+
     }
 }
