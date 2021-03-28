@@ -24,11 +24,14 @@ class ProcessManager
         SpyAgent::$activeProcess = $aProcess;
     }
     public function setSuccess(){
-        $processDocument = SpyAgent::$firestoreInstance
-            ->collection('systems/' . SpyAgent::$selectedSystem .
-                '/processes/' . SpyAgent::$currentProcessDocumentId );
+        $aDocumentReference = SpyAgent::$firestoreInstance->collection('systems')
+            ->document(SpyAgent::$selectedSystem);
+        $processesCollection = $aDocumentReference->collection('processes');
+        $processDocument = $processesCollection->document(SpyAgent::$currentProcessDocumentId);
+        $processDocument->set([
+            'status' => 'success'
+        ], ['merge' => true]);
 
-        $processDocument->set(["status"=>"success"]);
 
     }
 }
