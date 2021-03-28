@@ -38,4 +38,9 @@ class SpyAgent
     {
         return self::$activeProcess;
     }
+
+    public static function setProcessSuccess(){
+        $aManager = new ProcessManager();
+        $aManager->setSuccess();
+    }
 }
