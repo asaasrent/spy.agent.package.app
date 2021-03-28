@@ -42,5 +42,6 @@ class SpyAgent
     public static function setProcessSuccess(){
         $aManager = new ProcessManager();
         $aManager->setSuccess();
+
     }
 }

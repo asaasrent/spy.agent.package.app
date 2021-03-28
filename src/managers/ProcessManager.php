@@ -24,8 +24,6 @@ class ProcessManager
         SpyAgent::$activeProcess = $aProcess;
     }
     public function setSuccess(){
-
-
         $processDocument = SpyAgent::$firestoreInstance
             ->collection('systems/' . SpyAgent::$selectedSystem .
                 '/processes/' . SpyAgent::$currentProcessDocumentId );
