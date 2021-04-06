@@ -28,7 +28,7 @@ class SpyAgent
         $aManager->trackProcess($aProcess);
     }
 
-    public static function trackStep($stepName,array $payload =[])
+    public static function trackStep($stepName, array $payload =[])
     {
         $aManager = new StepManager();
         $aManager->trackStep($stepName, $payload);
